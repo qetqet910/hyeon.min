@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.w1200{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.top{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.top h1{
+    font-size: 30px;
+    margin: 30px auto;
+}
+.top h1:hover{
+    animation: rain infinite 5s;
+}
+.top .happy{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(200,50,50, 0.95);
+    border-radius: 30px;
+    display: block;
+    line-height: 35px;
+    margin: 30px auto;
+    border: 1px solid gray;
+    box-shadow: 3px 5px gray;
+    transition: all .5s;
+}
+.top .happy:hover{
+    box-shadow: 0px 0px gray;
+    margin: 35px auto 33px auto;
+    color: rgba(200,50,50, 0.95);
+    background-color: white;
+}
+
+@keyframes rain{
+    0% {color: black;}
+    10% {color: red;}
+    20% {color: orange;}
+    30% {color: yellow;}
+    40% {color: green;}
+    50% {color: blue;}
+    60% {color: purple;}
+    70% {color: brown;}
+    80% {color: pink;}
+    90% {color: hotpink;}
+    100% {color: black;}
+}
+.news iframe{
+    float: left;
+    border-radius: 30px;
+}
+.news .Ugly{
+    position: relative;
+    float: right;
+    display: inline-flex;
+    background: url(agency.jpg) center no-repeat;
+    max-width: 550px;
+    width: 100%;
+    height: 600px;
+    background-color: rosybrown;
+    border-radius: 30px;
+}
+.P{
+    padding: 10%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0, 0, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all .5s;
+    opacity: 0;
+}
+.P h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.P h3{
+    margin-bottom: 30px;
+}
+.P p{
+    line-height: 30px;
+}
+.P:hover{
+    opacity: 1;
+}
